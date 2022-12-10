@@ -33,12 +33,6 @@ p.across
   background-color: var(--accent); 
 }
 
-div 
-{
-display: flex;
-justify-content: center;
-}
-
 div.button
 {
     text-align: center;
