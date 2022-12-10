@@ -29,6 +29,7 @@ p
 p.across
 {
   text-align: center;
+  color: white;
   background-color: var(--accent); 
 }
 
