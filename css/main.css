@@ -2,7 +2,7 @@
 {
   --bg-color: rgb(250, 249, 246);
   --heading1: rgb(94, 57, 31);
-  --hover: rgb(250, 193, 21);
+  --accent: rgb(250, 193, 21);
 }
 
 body
@@ -29,7 +29,7 @@ p
 p.across
 {
   text-align: center;
-  text-decoration: overline underline;
+  background-color: var(--accent); 
 }
 
 nav ul {
@@ -50,7 +50,7 @@ nav li a {
 
 nav li a:hover {
     color: white;
-    background-color: var(--hover);    
+    background-color: var(--accent);    
 }
 
 
