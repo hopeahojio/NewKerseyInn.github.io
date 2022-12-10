@@ -1,6 +1,13 @@
+:root 
+{
+  --bg-color: rgb(107,122,101);
+  --heading1: rgb(94,57,31);
+  --hover: rgb(185, 202, 179);
+}
+
 body
 {
-  background-color: rgb(107,122,101);
+  background-color: var(--bg-color);
 }
 
 h1
@@ -10,7 +17,7 @@ h1
   font-size: 35pt;
   font-weight: bold;
   text-decoration: underline;
-  color: rgb(94,57,1);
+  color: var(--heading1);
 }
 
 p
@@ -34,8 +41,7 @@ nav li a {
 }
 
 nav li a:hover {
-   color: white;
-   background-color: var(--accent-color);    
+   background-color: var(--hover);    
 }
 
 
