@@ -28,7 +28,6 @@ p
 
 nav ul {
    list-style-type: none;
-   color: black;
    font-size: 25pt;
    padding: 10px 0;
 }
@@ -38,6 +37,7 @@ nav li {
 }
 
 nav li a {
+    color: black;
     text-decoration: none;  
     padding: 10px 20px;
 }
