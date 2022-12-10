@@ -32,16 +32,17 @@ nav ul {
 }
 
 nav li {
-   display: inline;
+    display: inline;
 }
 
 nav li a {
-   text-decoration: none;  
-   padding: 10px 20px;
+    text-decoration: none;  
+    padding: 10px 20px;
 }
 
 nav li a:hover {
-   background-color: var(--hover);    
+    color: black;
+    background-color: var(--hover);    
 }
 
 
