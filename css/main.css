@@ -26,6 +26,12 @@ p
   font-size: 16pt;
 }
 
+p.wordsacross
+{
+  text-align: center;
+  text-decoration: overline underline;
+}
+
 nav ul {
    list-style-type: none;
    font-size: 25pt;
