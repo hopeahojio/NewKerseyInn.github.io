@@ -33,6 +33,11 @@ p.across
   background-color: var(--accent); 
 }
 
+div.button
+{
+    text-align: center;
+}
+
 nav ul {
    list-style-type: none;
    font-size: 25pt;
