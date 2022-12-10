@@ -19,4 +19,23 @@ p
   font-size: 16pt;
 }
 
+nav ul {
+   list-style-type: none;
+   padding: 10px 0;
+}
+
+nav li {
+   display: inline;
+}
+
+nav li a {
+   text-decoration: none;  
+   padding: 10px 20px;
+}
+
+nav li a:hover {
+   color: white;
+   background-color: var(--accent-color);    
+}
+
 
