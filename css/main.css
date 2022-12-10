@@ -1,0 +1,31 @@
+body
+{
+  background-color: rgb(173,216,230); 
+}
+
+h1
+{
+  font-family: courier;
+  font-size: 35pt;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(144,68,44);
+}
+
+ul
+{
+  list-style-type: circle;
+  font-size: 16pt;
+}
+
+p
+{
+  font-family: noto;
+  font-size: 16pt;
+}
+
+div.button
+{
+  font-size: 14pt;  
+  text-align: center;
+}
